@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------
+
+Motivation of VIMEN
+
+The ideal IDE in my mind must has the following features:
+1. can work with VIM which is my favorite editor.
+2. can work with GCC/GDB.
+3. can INTEGRATE with different external tools if necessary
+4. Small and Fast.
+5. can run in different OS: Windows, Linux, Solaris
+
+Well, none of existed IDEs could meet my request:
+
+----------------------------------------------------------------------
+         | VIM         GCC/GDB   INTEGRATE Small   Fast    OS
+----------------------------------------------------------------------
+MSVC     | No          No        Bad       2 Bad   OK      No
+Eclipse  | Not Really  Yes       Good      2 Bad   Bad     Yes
+Netbeans | Yes         DONT KNOW Good      Bad     2 Bad   Yes
+EMACS    | Not Really  Yes       Good      OK      Good    Yes
+----------------------------------------------------------------------
+
+So, I have to make one for myself, and maybe it is useful for the VIM fans.
+
+VIMEN means: VIM Is More than Editor Now.
+
+HOW To Use
+----------
+1. Easy, just like this:
+    python vimen.py <your_executable_file>
+2. In opened VIM window, you can use the following function key:
+  <F5>    start/continue debugging
+  <F6>    toggel break point
+  <F7>    step into
+  <F8>    step over
+  <S-F7>  step out
+  <C-F8>  step until
+  <S-F5>  stop debugging
+  <F12>   set program arguments
+3. A Balloon Value Function is also available.
+
+Request
+-------
+1. Python 2.4
+2. "pyparsing" (from http://sourceforge.net/projects/pyparsing/)
+3. "ctypes" (from http://sourceforge.net/projects/ctypes)
+   or "pywin32" (from http://sourceforge.net/projects/pywin32/)
+

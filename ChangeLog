@@ -1,0 +1,17 @@
+2005-04-05 Klaus Hu <whohow@vip.sina.com>
+	* Remove PROGRAM configuration in config.py
+	
+2005-04-04 Klaus Hu <whohow@vip.sina.com>
+	* VIMEN version 0.00.0002 released: Add some documents.
+
+2005-04-02 Klaus Hu <whohow@vip.sina.com>
+	* Add feature: Set Execute Arguments.
+	* Improvement: VIMEN can now use 'ctypes' module to kill process in WIN32.
+	* Bug Fix: Minor bug fix to resolve dead lock.
+
+2005-04-01 Klaus Hu <whohow@vip.sina.com>
+	* VIMEN version 0.00.0001 released.
+		It includes only very few debug functions.
+	*	Debugger Control: Start/Stop Debugger
+	* Program Control: NEXT, STEP, RUN-UNTIL, RETURN
+	* Data Access: Value Balloon
